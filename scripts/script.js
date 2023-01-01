@@ -57,7 +57,6 @@ document.getElementById('order-form').addEventListener('submit', event => {
 });
 
 function addProductToCart(id) {
-	console.log(id);
 	const cartButton = document.getElementById('cart-button');
 	const product = productsArray.find(p => p._id == id);
 	cart.push(product);
